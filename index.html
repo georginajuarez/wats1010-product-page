@@ -1,54 +1,190 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <!-- TODO: Add proper head tag to provide a page description for search
              engines. -->
-        <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
+  <title>Salt 'n' Pepper</title>
+  <!-- Bootstrap CSS Framework -->
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+  <!-- End Bootstrap CSS Framework -->
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
+  <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="favicon" href="favicon.ico">
 
-    </head>
-    <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
+</head>
+
+<body>
+  <!-- Note: If you do not see a lamp icon in the heading below
              when you view this file in a web browser, then there is an issue
              with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+  <header>
+    <h1><span class="glyphicon glyphicon-cutlery"></span> Salt 'n' Pepper</h1>
+    <h3>If you got it, shake it!</h3>
+  </header>
+  <nav>
+    <!-- nav section of site -->
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li>
+        <!--Shopping-cart icon on a button:-->
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-shopping-cart"></span> Cart
+            </button></li>
+    </ul>
+  </nav>
 
-        <!-- TODO: Create an area to put the explainer video. -->
+  <section>
+    <!-- Product images and more items button-->
+    <div>
+      <img src="#" alt="Product 1" style="width 100%">
+      <div class="container">
+        <p>
+          Product 1 <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+        </p>
+      </div>
+    </div>
 
-        <!-- TODO: Create an area to put the long product description. -->
+    <div>
+      <img src="#" alt="Product 2" style="width 100%">
+      <div class="container">
+        <p>
+          Product 2 <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+        </p>
+      </div>
+    </div>
 
-        <!-- TODO: Create an area to put customer testimonials. -->
+    <div>
+      <img src="#" alt="Product 3" style="width 100%">
+      <div class="container">
+        <p>
+          Product 3 <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+        </p>
+      </div>
+    </div>
 
-        <!-- TODO: Create an area to show features. -->
+    <div>
+      <img src="#" alt="Product 4" style="width 100%">
+      <div class="container">
+        <p>
+          Product 4 <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+        </p>
+      </div>
+    </div>
 
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
+    <div>
+      <img src="#" alt="Product 5" style="width 100%">
+      <div class="container">
+        <p>
+          Product 5 <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+        </p>
+      </div>
+    </div>
 
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
+    <div>
+      <img src="#" alt="Product 6" style="width 100%">
+      <div class="container">
+        <p>
+          Product 6 <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+        </p>
+      </div>
+    </div>
+    <div>
+      <p>More items
+        <a href="#">
+          <span class="glyphicon glyphicon-arrow-right"></span>
+        </a>
+      </p>
+    </div>
+  </section>
 
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-    </body>
+  <section>
+    <!-- testimonials -->
+    <!-- change to bootstrap media objects: http://www.w3schools.com/bootstrap/bootstrap_media_objects.asp -->
+    <p>
+      <!-- Emily B. -->
+      "These are the lovliest salt and pepper pots a girl can find." <img src="#">
+    </p>
+
+    <p>
+      <!-- Harry W. -->
+      <img src="#"> "These make for perfect gifts. I bought one for my grandma and she loved it."
+    </p>
+
+    <p>
+      <!-- Jennifer L. -->
+      "OMG! Could they be any cuter?! I totes love these!" <img src="#">
+    </p>
+
+    <p>
+      <!-- Tom W. -->
+      <img src="#"> "I love these, my girlfriend loves these, and everyone we knows thinks they are the funny and cool. We can can't get enough."
+    </p>
+
+    <p>
+      <!-- Anna K. -->
+      I mean... I have a set for every season and then some. Are they not the cutest?! They totes are... the cutest. <img src="#">
+    </p>
+  </section>
+
+  <aside>
+    <!-- contact us --><!--  -->
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Contact Us</h1>
+      </div>
+
+      <div class="well">Have a question or comment? Fill out the following information and we will get back to you as soon as possible.</div>
+
+      <form class="form-horizontal" method="post" role="form">
+        <div class="form-group">
+          <label for="email" class="col-sm-1 control-label">E-mail:</label><!-- Changed sm-2 to sm-1 -->
+          <div class="col-sm-3"> <!-- Changed sm-4 to sm-3 -->
+            <input type="email" class="form-control" id="email" name="email" placeholder="E-mail Address (Required)" required autofocus>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="name" class="col-sm-1 control-label">Name:</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name (Required)" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="name" class="col-sm-1 control-label">Message:</label>
+          <div class="col-sm-3"><!-- Changed sm-6 to sm-3 -->
+            <textarea id="message" name="message" class="form-control" placeholder="Your Message (Required)" rows="5" required></textarea>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-offset-1 col-sm-3"><!-- Changed sm-6 to sm-3 -->
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </aside>
+
+  <footer>
+    <!-- social links and end page info incl. back to top -->
+  </footer>
+
+</body>
+
 </html>

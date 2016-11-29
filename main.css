@@ -1,8 +1,11 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+header {
+  background-image: url("product-images/containers-1835927_1920.jpg");
+  background-position: center; /*add transparent white bg to text*/
+  background-size: cover;
+  padding: 75px; /*change to a responsive value*/
+  text-align: center;
 }
+
