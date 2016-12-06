@@ -1,11 +1,71 @@
 /* Styles for Product Page Customization */
+
+
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 header {
-  background-image: url("product-images/containers-1835927_1920.jpg");
-  background-position: center; /*add transparent white bg to text*/
+  background-image: url("product-images/salt-and-pepper.jpg");
+  background-position: center;
+  /*add transparent white bg to text. Update: andded jumbotron element in html to make text stand out*/
   background-size: cover;
-  padding: 75px; /*change to a responsive value*/
+  padding: 75px;
+  /*change to a responsive value*/
   text-align: center;
 }
 
+
+/*product card section*/
+
+div.product-card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+  margin: 10px;
+}
+
+div.card-name {
+  padding: 10px;
+}
+
+section#watch {
+  margin: 75px;
+  padding: 0;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+  border: 5px ridge #ff9999;
+}
+
+
+/*testimonial section*/
+
+
+/*contact us section*/
+
+#contact-us {
+  background-image: url(product-images/tree-trunk.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+#contact-us .well {
+  color: black;
+}
+
+footer {
+  text-align: center;
+}
+
+ul.social-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.social-links li {
+  display: inline;
+}
